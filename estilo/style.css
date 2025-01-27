@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --cor0: #332217;
+    --cor1: #523F32;
+    --cor2: #78685D ;
+    --cor3: #D19166;
+    --cor4: #FABA82;
+}
+
+body{
+    background-color: rgba(250, 192, 92, 0.63);
+}
+
+
+
+
+.cor{
+    background-color: var(--cor2);
+    color: white;
+    padding: 10px;
+}
+
+header{
+    background-color: var(--cor1);
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    line-height: 2em;
+}
+
+header >h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 2.6em;
+}
+
+header > p{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+a:hover{
+    text-decoration: underline;
+    background-color: var(--cor2);
+}
+
+img#pao{
+   display: inline-block;
+   transform: translate(2%, -1.5%);
+   max-width: 900px;
+   min-width: 300px;
+  
+}
+
+#texto{
+    text-align: center;
+    
+}
+
+#cotainer{
+    position: relative;
+   
+}
+
+#conteudo{
+    position: absolute;
+    padding: 20px;
+    left: 510px;
+    top: 250px;
+    line-height: 2em;
+    background-color: var(--cor3);
+}
+
+
+main.assunto{
+    text-align: center;
+    background-color: var(--cor3);
+    padding: 20px;
+    line-height: 2em;
+}
+
+.texto{
+    display: inline;
+    background-position: left center;
+}
+
+
+
+.movimento{
+    display: inline-block;
+    transform: translate(50%, 0%);
+    max-width: 900px;
+    min-width: 300px;
+   
+}
+
+
+aside.mais{
+    text-align: center;
+    background-color: var(--cor3);
+    padding: 20px;
+    line-height: 2em;
+
+}
+
+img#torta{
+    display: inline-block;
+    transform: translate(196%, 0%);
+    max-width: 800px;
+    min-width: 300px;
+}
+
+img#preparo{
+    display: inline-block;
+    transform: translate(-90%, 0%);
+    max-width: 800px;
+    min-width: 300px;
+} 
+
+footer{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    background-color: var(--cor1);
+    
+}
+fotter, a{
+    text-decoration: none;
+    color: white;
+}
+
+    footer:hover{
+        text-decoration: underline;
+        color: var(--cor2);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
